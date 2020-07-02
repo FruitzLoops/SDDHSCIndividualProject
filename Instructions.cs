@@ -12,7 +12,7 @@ public class Instructions : MonoBehaviour
 
     public void Next()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - +1); //load scene after
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex +1); //load scene after
     }
 
     public void MainMenu()
